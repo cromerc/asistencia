@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TakeAttendance"
+    tools:showIn="@layout/activity_correct_attendance">
+
+    <ImageView
+        android:id="@+id/student_photo"
+        android:contentDescription="@string/attendance_photo"
+        android:layout_width="315dp"
+        android:layout_height="420dp"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <!--<TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/student_photo"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"/>-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_photo"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/attendance_absent"
+            android:id="@+id/button_absent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/attendance_present"
+            android:id="@+id/button_present"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

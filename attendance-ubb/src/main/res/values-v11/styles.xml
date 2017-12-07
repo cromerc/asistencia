@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="UBBTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorTextPrimaryInverse</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:colorForeground">@color/colorForeground</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <item name="android:textColorSecondaryInverse">@color/colorTextSecondaryInverse</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="buttonStyle">@style/Button</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:spinnerStyle">@style/Spinner</item>
+    </style>
+
+    <style name="Button" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/ubbtheme_btn_default_holo_light</item>
+        <item name="android:textColor">@color/colorTextPrimaryInverse</item>
+    </style>
+
+    <style name="Spinner" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/ubbtheme_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/ubbtheme_list_selector_holo_light</item>
+    </style>
+
+    <style name="UBBTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/expand</item>
+        <item name="android:windowExitAnimation">@anim/shrink</item>
+    </style>
+
+    <style name="UBBTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="UBBTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        cromer {
+            keyAlias 'cromer'
+            keyPassword 'K7PRxe4eyeXGr3FeULSapUEqHcKAZgkaGe6HmX7cNd873XBLwR'
+            storeFile file('/home/cromer/cromer_cl/keystore/keystore')
+            storePassword 'K7PRxe4eyeXGr3FeULSapUEqHcKAZgkaGe6HmX7cNd873XBLwR'
+        }
+    }
+    compileSdkVersion 27
+    buildToolsVersion "27"
+    defaultConfig {
+        applicationId "cl.cromer.ubb.attendance"
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        signingConfig signingConfigs.cromer
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.cromer
+            proguardFile '/home/cromer/StudioProjects/UBBAttendance/attendance-ubb/proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            jniDebuggable true
+            minifyEnabled false
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:27.0.0'
+    compile 'com.android.support:design:27.0.0'
+    compile 'com.android.support:cardview-v7:27.0.0'
+    compile 'com.android.support:recyclerview-v7:27.0.0'
+}

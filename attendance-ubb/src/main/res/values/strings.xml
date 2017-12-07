@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Attendance</string>
+    <string name="ubb_logo">UBB</string>
+
+    <string name="about_credit1">Made by Christopher Cromer</string>
+    <string name="about_credit2">chris@cromer.cl</string>
+    <string name="about_credit3">Civil Engineering in Computer Science</string>
+    <string name="about_email">Send E-Mail</string>
+
+    <string name="report_subject">Subject</string>
+    <string name="report_course">Course</string>
+    <string name="report_class">Class</string>
+    <string name="report_section">Section</string>
+    <string name="report_names">Names</string>
+    <string name="report_first_last_name">First last name</string>
+    <string name="report_second_last_name">Second last name</string>
+    <string name="report_present">Present</string>
+    <string name="report_late">Late</string>
+    <string name="report_justified">Justified</string>
+    <string name="report_absent">Absent</string>
+    <string name="report_fail">File could not be created.</string>
+    <string name="report_created">The report has been generated in your memory card. Would you like to view it now?</string>
+    <string name="report_classes">Classes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_import_excel">Import course</string>
+    <string name="navigation_drawer_import_photo_zip">Import student photos</string>
+    <string name="navigation_drawer_report_class">Class report</string>
+    <string name="navigation_drawer_report_course">Course report</string>
+    <string name="navigation_drawer_about">About</string>
+
+    <string name="import_no_file_manager">You do not have a file manager installed.</string>
+    <string name="import_choose_file">Choose a file to import.</string>
+    <string name="import_not_valid_excel">Not a valid excel file.</string>
+    <string name="import_not_valid_zip">Not a valid zip file.</string>
+    <string name="import_no_file">The file does not exist.</string>
+    <string name="import_success">The file has been imported.</string>
+
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_correct">Correct attendance</string>
+    <string name="action_late">Late students</string>
+
+    <string name="input_accept">Accept</string>
+    <string name="input_cancel">Cancel</string>
+    <string name="input_yes">Yes</string>
+    <string name="input_no">No</string>
+    <string name="input_confirm">Are you sure?</string>
+
+    <string name="subjects_title">Subjects</string>
+    <string name="subjects_added">Subject added.</string>
+    <string name="subjects_edited">Subject edited.</string>
+    <string name="subjects_blank_subject_name">Please fill in a subject name.</string>
+    <string name="subjects_blank_major_name">Please fill in a major name.</string>
+    <string name="subjects_blank_major_code">Please fill in a major code.</string>
+    <string name="subjects_blank_subject_code">Please fill in a subject code.</string>
+    <string name="subjects_invalid_subject_code">Please fill in a valid subject code.</string>
+    <string name="subjects_invalid_major_code">Please fill in a valid major code.</string>
+    <string name="subjects_add_subject">Add subject</string>
+    <string name="subjects_edit_subject">Edit subject</string>
+    <string name="subjects_subject_name">Subject name</string>
+    <string name="subjects_major_name">Major name</string>
+    <string name="subjects_major_code">Major code</string>
+    <string name="subjects_subject_code">Subject code</string>
+    <string name="subjects_subject_exists">Subject code already exists.</string>
+
+    <string name="courses_added">Course added</string>
+    <string name="courses_edited">Course edited</string>
+    <string name="courses_section">Section</string>
+    <string name="courses_year">Year</string>
+    <string name="courses_semester">Semester</string>
+    <string name="courses_separator">-</string>
+    <string name="courses_invalid_year">Please fill in a valid year.</string>
+    <string name="courses_invalid_semester">Please fill in a valid semester.</string>
+    <string name="courses_invalid_section">Please fill in a valid section.</string>
+    <string name="courses_add_course">Add course</string>
+    <string name="courses_edit_course">Edit course</string>
+    <string name="courses_course_exists">Course already exists.</string>
+
+    <string name="classes_added">Class added</string>
+    <string name="classes_edited">Class edited</string>
+    <string name="classes_add_class">Add class</string>
+    <string name="classes_edit_class">Edit class</string>
+    <string name="classes_section">Section</string>
+    <string name="classes_class_exists">Class already exists.</string>
+
+    <string name="attendance_no_students">There are no students enrolled in this course.</string>
+    <string name="attendance_no_students_correct">There are no attendances that can be corrected.</string>
+    <string name="attendance_saved">Attendance saved.</string>
+    <string name="attendance_photo">Student photo</string>
+    <string name="attendance_present">Present</string>
+    <string name="attendance_justified">Justified</string>
+    <string name="attendance_absent">Absent</string>
+    <string name="attendance_late">Late</string>
+    <string name="attendance_retake">Do you wish to retake the attendance for this class?</string>
+
+    <string name="permission_file">This permission is needed to import/export excel files and photos.</string>
+    <string name="permission_failed">Cannot open files without permission.</string>
+
+    <string name="general_loading">Loading…</string>
+    <string name="general_downloading">Downloading</string>
+    <string name="general_no_app">You don\'t have a supported application installed for this action!</string>
+</resources>

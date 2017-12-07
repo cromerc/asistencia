@@ -1,0 +1,12 @@
+<resources>
+    <item name="ic_menu_edit" type="drawable">@android:drawable/ic_menu_edit</item>
+    <item name="ic_menu_delete" type="drawable">@android:drawable/ic_menu_delete</item>
+    <item name="ic_menu_add" type="drawable">@android:drawable/ic_menu_add</item>
+    <item name="ic_menu_correct" type="drawable">@android:drawable/ic_menu_agenda</item>
+    <item name="ic_menu_late" type="drawable">@android:drawable/ic_menu_recent_history</item>
+
+    <item name="ic_menu_report" type="drawable">@android:drawable/ic_menu_agenda</item>
+    <item name="ic_menu_about" type="drawable">@android:drawable/ic_menu_help</item>
+    <item name="ic_menu_import_excel" type="drawable">@android:drawable/ic_menu_upload</item>
+    <item name="ic_menu_import_photo_zip" type="drawable">@android:drawable/ic_menu_gallery</item>
+</resources>

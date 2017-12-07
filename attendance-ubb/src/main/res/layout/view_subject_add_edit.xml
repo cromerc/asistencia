@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_subject_name"
+        android:layout_marginTop="15dp"
+        android:hint="@string/subjects_subject_name"
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_below="@id/edit_subject_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_subject_code"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/edit_subject_name"
+        android:layout_alignStart="@+id/edit_subject_name"
+        android:hint="@string/subjects_subject_code"
+        android:textSize="15sp"
+        android:maxLength="6"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_below="@id/edit_subject_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_major_name"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/edit_subject_code"
+        android:layout_alignStart="@+id/edit_subject_code"
+        android:hint="@string/subjects_major_name"
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_below="@id/edit_major_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_major_code"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/edit_major_name"
+        android:layout_alignStart="@+id/edit_major_name"
+        android:hint="@string/subjects_major_code"
+        android:textSize="15sp"
+        android:maxLength="4"
+        android:inputType="number"/>
+
+</RelativeLayout>
